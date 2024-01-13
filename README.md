@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-npm i -D @nulltype/eslint-config-ts-base
+npm i -D eslint @nulltype/eslint-config-ts-base @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-sort-keys-fix
 ```
 
 In your eslint config file:
