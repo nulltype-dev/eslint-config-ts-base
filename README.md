@@ -13,3 +13,17 @@ module.exports = {
   extends: '@nulltype/ts-base'
 }
 ```
+
+## Prettier proposal
+
+add .prettierrc with following content
+
+```json
+{
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "semi": false
+}
+```
