@@ -14,6 +14,7 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
+    files: ['**/*.ts', '**/*.mjs', '**/*.js', '**/*.cjs'],
     rules: {
       '@typescript-eslint/consistent-type-imports': [
         'error',

@@ -3,15 +3,20 @@
 ## Usage
 
 ```bash
-npm i -D eslint @nulltype/eslint-config-ts-base @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-sort-keys-fix
+npm i -D eslint @nulltype/eslint-config-ts-base @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier
 ```
 
 In your eslint config file:
 
 ```js
-module.exports = {
-  extends: '@nulltype/ts-base'
-}
+import nulltypeConfig from '@nulltype/eslint-config-ts-base'
+
+export default [
+  ...nulltypeConfig,
+  {
+    // ... project settings
+  },
+]
 ```
 
 ## Prettier proposal
